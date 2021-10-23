@@ -1,0 +1,14 @@
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\bin\Debug\netcoreapp3.1\PlantPickerApp.exe
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\bin\Debug\netcoreapp3.1\PlantPickerApp.deps.json
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\bin\Debug\netcoreapp3.1\PlantPickerApp.runtimeconfig.json
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\bin\Debug\netcoreapp3.1\PlantPickerApp.runtimeconfig.dev.json
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\bin\Debug\netcoreapp3.1\PlantPickerApp.dll
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\bin\Debug\netcoreapp3.1\PlantPickerApp.pdb
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.csproj.AssemblyReference.cache
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.AssemblyInfoInputs.cache
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.AssemblyInfo.cs
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.csproj.CoreCompileInputs.cache
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.dll
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.pdb
+C:\Users\steve\Documents\Side Projects\PlantPickerApp\PlantPickerApp\PlantPickerApp\obj\Debug\netcoreapp3.1\PlantPickerApp.genruntimeconfig.cache
