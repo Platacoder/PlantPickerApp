@@ -34,6 +34,7 @@ namespace PlantPickerApp
                 {
                     Console.WriteLine("Would you like to start another query?(Y/N)");
                     string queryRestartInput = Console.ReadLine().ToLower();
+                    Console.WriteLine();
                     if (queryRestartInput == "y" || queryRestartInput == "n")
                     {
                         isRightInput = true;
