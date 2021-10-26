@@ -28,7 +28,8 @@ namespace PlantPickerApp
         }
         public void AppUserInputs()
         {
-            Console.WriteLine("Please type in the relevant inputs below. You may select more than one answer for light and soil requirements (seperated by | ).");
+            Console.WriteLine("Please type in the relevant inputs below. You may select more than one answer \nfor light and soil requirements (seperated by | ).");
+            Console.WriteLine();
             Console.WriteLine("For a list of all plants, type in \"All Plants\".");
             Console.WriteLine("Plant Type (Shrub|Herbacious|Tree|Grass|Vine):");
             
@@ -112,16 +113,26 @@ namespace PlantPickerApp
         }
         public void DisplayReturnedPlants(List<Plant> listToDisplay)
         {
-            foreach(Plant plant in listToDisplay)
+            if(listToDisplay.Count > 0)
+            {
+                foreach (Plant plant in listToDisplay)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine($"{plant.CommonName} ({plant.ScientificName})");
+                    Console.WriteLine($"Plant Type: {plant.PlantType}");
+                    Console.WriteLine($"Light Requirements: {DisplayRequirements(plant.LightRequirements)}");
+                    Console.WriteLine($"Soil Type Requirements: {DisplayRequirements(plant.SoilType)}");
+                    Console.WriteLine($"Soil Moisture Requirements: {DisplayRequirements(plant.SoilMoisture)}");
+                    Console.WriteLine("----------------------------------------------------------------------------");
+                }
+            }
+            else
             {
                 Console.WriteLine();
-                Console.WriteLine($"{plant.CommonName} ({plant.ScientificName})");
-                Console.WriteLine($"Plant Type: {plant.PlantType}");
-                Console.WriteLine($"Light Requirements: {DisplayRequirements(plant.LightRequirements)}");
-                Console.WriteLine($"Soil Type Requirements: {DisplayRequirements(plant.SoilType)}");
-                Console.WriteLine($"Soil Moisture Requirements: {DisplayRequirements(plant.SoilMoisture)}");
-                Console.WriteLine("----------------------------------------------------------------------------");
+                Console.WriteLine("Sorry but there are currently no plants in the database that match those inputs." +
+                                  " Please try again.");
             }
+            
         }
         public string DisplayRequirements(List<string> requirementsToList)
         {

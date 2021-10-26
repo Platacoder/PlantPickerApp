@@ -7,6 +7,7 @@ using PlantPickerApp.Plants.Shrubs;
 using PlantPickerApp.Plants.Trees;
 using PlantPickerApp.Plants.Grasses;
 using PlantPickerApp.Plants.Herbacious;
+using PlantPickerApp.Plants.Vines;
 
 namespace PlantPickerApp
 {
@@ -31,6 +32,9 @@ namespace PlantPickerApp
             //Herbacious
             ButterflyWeed butterflyWeed = new ButterflyWeed();
             EasternBluestar easternBluestar = new EasternBluestar();
+            //Vines
+            TrumpetHoneysuckle trumpetHoneysuckle = new TrumpetHoneysuckle();
+            VirginiaCreeper virginiaCreeper = new VirginiaCreeper();
 
             PlantHolder.Add(canadianServiceberry);
             PlantHolder.Add(summerSweet);
@@ -40,6 +44,8 @@ namespace PlantPickerApp
             PlantHolder.Add(woolgrass);
             PlantHolder.Add(butterflyWeed);
             PlantHolder.Add(easternBluestar);
+            PlantHolder.Add(trumpetHoneysuckle);
+            PlantHolder.Add(virginiaCreeper);
         }
 
     }
