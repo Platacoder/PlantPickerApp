@@ -12,7 +12,7 @@ namespace PlantPickerApp
     {
         static void Main(string[] args)
         {
-            Controller controller = new Controller();
+            MainMenu mainMenu = new MainMenu();
             PlantList plantList = new PlantList();
             plantList.PopulateList();
 
@@ -23,10 +23,10 @@ namespace PlantPickerApp
                 Console.WriteLine("-----------------------------------------------------------------------------------------------------------------");
                 Console.WriteLine("-----------------------------------------------------------------------------------------------------------------");
 
-                controller.AppGreeting();
-                controller.AppUserInputs();
-                controller.inputSplitter();
-                controller.DisplayReturnedPlants(controller.PlantSearch());
+                mainMenu.AppGreeting();
+                mainMenu.AppUserInputs();
+                mainMenu.inputSplitter();
+                mainMenu.DisplayReturnedPlants(mainMenu.PlantSearch());
 
                 
                 bool isRightInput = false;

@@ -8,7 +8,7 @@ namespace PlantPickerApp
 {
 
     //Runs the algorithms that organize the plant objects into list, query's them based of user input, and displays it back to the console.
-    public class Controller
+    public class MainMenu
     {
         public string PlantTypeInput;
         public string LightRequirementInput;
